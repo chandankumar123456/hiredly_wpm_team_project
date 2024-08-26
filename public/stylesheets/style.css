@@ -1,12 +1,12 @@
 @import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
 h1, h2, h3, h4, h5, h6 {
- font-family: 'Lobster', cursive;
+ font-family: 'Arial Narrow Bold', sans-serif, cursive;
 }
 legend {
  font-family: 'Lobster', cursive;
 }
 .navbar {
- background-color: #ad1d28;
+ background-color: #911821;
  border-color: #911821;
 }
 .navbar-light .navbar-brand {
@@ -26,7 +26,8 @@ legend {
  color: white;
 }
 .card {
- background-color: #469ea8;
+ background-color: #E8B86D;
+ /* background-color: #469ea8; */
  padding: 1rem;
 }
 .card-primary {
@@ -40,7 +41,8 @@ legend {
  padding-bottom: 0.5em;
 }
 .review-header {
- background-color: #31727a;
+ background-color: #E8B86D;
+ /* background-color: #31727a; */
  padding-top: 0.5em;
  padding-bottom: 0.5em;
  margin-bottom: 0.5em;
@@ -83,5 +85,6 @@ h4 small {
  body {
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
-  background-color: #108a93;
+  background-color: #A1D6B2;
+  /* background-color: #108a93; */
  } 
