@@ -10,7 +10,8 @@ router.get('/location', ctrlLocations.locationInfo);
 router.get('/location/review/new', ctrlLocations.addReview);
 router.get('/jobs/Google_SDE', getJobs.Google);
 router.get('/jobs/Microsoft_DL_Intern', getJobs.Microsoft);
-router.get('/jobs/Amazon_GenAI', getJobs.Amazon)
+router.get('/jobs/Amazon_GenAI', getJobs.Amazon);
+router.get('/jobs', getJobs.Jobs);
 /* Other pages */
 router.get('/about', ctrlOthers.about);
 module.exports = router;

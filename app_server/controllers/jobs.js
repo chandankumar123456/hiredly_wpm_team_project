@@ -7,8 +7,12 @@ const Microsoft = (req, res) => {
 const Amazon = (req, res) => {
     res.render('job3', { title: 'Amazon Jobs' });
 };
+const Jobs = (req, res) => {
+    res.render('jobs_list', {title : 'Jobs Available'})
+}
 module.exports = {
    Google,
    Microsoft,
-   Amazon
+   Amazon,
+   Jobs
 };
