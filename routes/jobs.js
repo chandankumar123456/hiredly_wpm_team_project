@@ -2,16 +2,15 @@ const express = require('express');
 const router = express.Router();
 const Job = require('../models/Job');
 
-// Get all jobs
 router.get('/', async (req, res) => {
     try {
-        const jobs = await Job.find();
-        res.render('jobs', { jobs });
+      const jobs = await Job.find();
+      res.render('jobs', { jobs });
     } catch (error) {
-        res.status(500).send('Error retrieving jobs');
+      console.error('Error retrieving jobs:', error);
+      res.status(500).send('Error retrieving jobs');
     }
-});
-
+  });
 // Get the form to add a new job
 router.get('/add', (req, res) => {
     res.render('addJob'); // Render the form to add a job
